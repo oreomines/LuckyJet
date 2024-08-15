@@ -18,7 +18,7 @@ function getRandomFloat(min, max, decimals) {
 
 //Нажатие на кнопку "GET SIGNAL"
 getSignal.onclick = function () {
-  let receivingSignal = getRandomFloat(1.00, 2.00, 2);
+  let receivingSignal = getRandomFloat(2.41, 2.41, 2);
 
   if ((receivingSignal.toString().length == 3)) {
     receivingSignal += "0";
